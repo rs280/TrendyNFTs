@@ -1,0 +1,44 @@
+{
+  "name": "digital-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "accounts": "npx hardhat accounts",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "deploy:mumbai": "npx hardhat run --network mumbai scripts/deploy.js",
+    "deploy:spark": "npx hardhat run --network spark scripts/deploy.js",
+    "dev": "npx next dev",
+    "build": "npx next build",
+    "start": "npx next start",
+    "lint": "npx next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.3",
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "eth-rpc-errors": "^4.0.3",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.8",
+    "ipfs-http-client": "^50.1.2",
+    "localtunnel": "^2.0.2",
+    "next": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "hardhat-deploy-ethers": "^0.3.0-beta.11",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
